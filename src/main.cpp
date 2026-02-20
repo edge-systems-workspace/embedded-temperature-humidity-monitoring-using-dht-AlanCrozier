@@ -3,6 +3,7 @@
 #define DHTPIN 2     // Digital pin connected to the DHT sensor
 #define DHTTYPE DHT22   // DHT 22 (AM2302)
 
+
 DHT dht(DHTPIN, DHTTYPE);
 void setup() {
     // write your initialization code here
